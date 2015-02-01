@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(normalized.css);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+/* -----------------------------------------------------------
+ * elements
+ */
+body {
+	font-family: 'Noto Sans', "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	margin: 0 auto;
+}
+
+a {
+}
+a:link {
+	color: #069;
+}
+a:visited {
+	color: #936;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #D7432E;
+}
+
+
+/* -----------------------------------------------------------
+ * classes
+ */
+
+.leftbox {
+	float: left;
+	width: 449px;
+}
+.rightbox {
+	float: right;
+	width: 449px;
+}
+
+/* -----------------------------------------------------------
+ * header
+ */
+header {
+	background: #257FC6;
+	color: #fff;
+	padding: 1px 0;
+}
+header .hgroup {
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
+header h1 {
+	margin: 1em 30px;
+	font-size: 1.2em;
+	text-shadow: 0 2px 0 #000;
+}
+
+header nav {
+	position: fixed;
+	width: 900px;
+	top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 1.2em;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 20px 0;
+}
+header nav ul li {
+	background: #B8F1FB;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	padding: 10px 15px;
+	list-style: none;
+	border-radius: 15px;
+}
+
+/* -----------------------------------------------------------
+ * article
+ */
+article {
+}
+
+
+/* -----------------------------------------------------------
+ * section
+ */
+section {
+	padding: 1em 0;
+}
+
+section .content {
+	width: 900px;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+section .content:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+section h2 {
+	margin: 2em 1em;
+	font-size: 2.3em;
+}
+section h3 {
+	margin: 2em 1em;
+	font-size: 2em;
+	text-align: center;
+	line-height: 2em;
+}
+
+section p {
+	margin: 2em 1em;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+/* -----------------------------------------------------------
+ * section: top
+ */
+#top {
+	background: #fff;
+}
+
+
+/* -----------------------------------------------------------
+ * section: top
+ */
+#sonae {
+	background: #B8F1FB;
+}
+
+#sonae #sonae_title:before {
+	float: left;
+	content: '';
+	display: block;
+	margin: 0 0.4em 0 0;
+	width: 44px;
+	height: 44px;
+	border: solid 6px #6FADA5;
+	border-radius: 30px;
+	background: #6FADA5 url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23ffffff%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E") no-repeat center center;
+	background-size: contain;
+}
+
+
+
+
+/* -----------------------------------------------------------
+ * section: top
+ */
+#urei {
+	background: #F9F24A;
+}
+
+#urei #urei_title:before {
+	float: left;
+	content: '';
+	display: block;
+	margin: 0 0.4em 0 0;
+	width: 44px;
+	height: 44px;
+	border: solid 6px #6FADA5;
+	border-radius: 30px;
+	background: #6FADA5 url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23ffffff%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E") no-repeat center center;
+	background-size: contain;
+}
+
+/* -----------------------------------------------------------
+ * footer
+ */
+ 
+
+/* -----------------------------------------------------------
+ * MEMO
+ *
+ * jquery mobile svg: checkmark
+url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23------%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E")
+
+ *
