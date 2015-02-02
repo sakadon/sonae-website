@@ -15,8 +15,9 @@
 	
 		<nav>
 			<ul>
-				<li><a href="#" title="AAAA">Sonae</a></li>
-				<li><a href="#" title="AAA">AAA</a></li>
+				<li><a href="#sonae" title="連絡先を備える">備える</a></li>
+				<li><a href="#urei" title="いざという時に">いざという時</a></li>
+				<li><a href="#about" title="このアプリについて">アプリについて</a></li>
 			</ul>
 		</nav>
 	
@@ -33,7 +34,28 @@
 			</div>
 		
 			<div class="rightbox">
+			
+				<h2><a href="prototype.php">Prototype Demo</a></h2>
+				<p class="centering">
+					<small>※現段階では個人情報保護は特に行っていません。</small>
+				</p>
+			
+				<h2>シナリオ・アンケート</h2>
+				<p class="centering">
+					「いざという時」に提案するシナリオに関して、実際に体験された内容などを盛り込みたく、アンケートを行っております。ぜひご協力ください。
+				</p>
 				
+				<h2>Github</h2>
+				<p class="centering">
+					<a href="https://github.com/sakadon/sonae-js">JavaScript (jQuery Mobile) Ver.</a><br>
+					<a href="https://github.com/orenodennwacho/orenodenwacho">PHP Ver.</a>
+				</p>
+				<p class="centering">
+					今春、FirefoxOSアプリとしてリリース予定。<br>
+					その後、iOS、Androidアプリ化したい！<br>
+					ウェブ(PHP)版も順次開発
+				</p>
+			
 			</div>
 	
 		</div>
@@ -73,18 +95,22 @@
 			</div>
 		
 		</div>
+		<div class="content">
+			<div class="centering">
+				<p><img src="img/sc_sonae01.png" alt="チェックリスト形式の備え・スクリーンショット1">▶<img src="img/sc_sonae02.png" alt="チェックリスト形式の備え・スクリーンショット2"></p>
+			</div>
+		</div>
 	</section>
 	
 	<section id="urei">
 		<div class="content">
 		
 			<div class="leftbox">
+				<p>いざという時は突然やってきます。その時、どういう行動をとれば良いか、明確にしておくには訓練しかありませんでした。</p>
 			</div>
 		
 			<div class="rightbox">
 				<h2 id="urei_title">いざという時に</h2>
-				
-				
 			</div>
 	
 		</div>
@@ -95,7 +121,7 @@
 			</div>
 		
 			<div class="rightbox">
-				<p>そんな切実で、けど明確な答えが見いだせない場面は多々あります。このアプリでは、場面に応じて最適と思われる連絡先や行動を提案します。その指示を参考に、必要なアクションを行って下さい。</p>
+				<p>このアプリでは、場面に応じて最適と思われる連絡先や行動を提案します。そのアシストをもとに、身の安全をはかり、被害を最小限にくい止め、必要な連絡を迅速に行えます。</p>
 			</div>
 		
 		</div>
@@ -112,13 +138,50 @@
 		</div>
 	</section>
 
-	<section id="yokatta">
+	<section id="about">
 		<div class="content">
 		
-			<div class="centerbox">
-				<h2 id="yokatta_title"></h2>
+			<div class="leftbox">
+				<h2 id="about_title">アプリについて</h2>
 			</div>
-	
+		
+			<div class="rightbox">
+				<p><a href="http://www.itxsaigai.org/2014/">「ITx災害」会議2014</a>にて、ツールというキーワードで話し合った際に出たアイディアを基に<a href="http://blog.hack4.jp/2014/10/blog-post.html">「減災防災ハッカソン」</a>にて有志が実装を開始したのが始まりです。</p>
+			</div>
+		
+		</div>
+		<div class="content">
+		
+			<div class="leftbox">
+				<p>そもそも、何らかの災害時に行動を提案してくれるツールがあれば、それを参考に減災・防災的な行動を自らがとれるのではないか、といった提案でした。</p>
+			</div>
+		
+			<div class="rightbox">
+				<p>技術的には、実はそこまで難しい話ではなく、それぞれの場面に対して適切なシナリオが豊富にあれば、このアプリが目指す望みが叶うのではないかと思っています。</p>
+			</div>
+		
+		</div>
+		<div class="content">
+		
+			<div class="rightbox">
+				<h3>減災・防災アプリとして</h3>
+			</div>
+		
+			<div class="leftbox">
+				<p>このアプリによって（無い方が良いけど）備えていてよかった、と思える日が来てしまうかもしれません。来てほしくないけど、来た時の為の減災・防災アプリです。</p>
+			</div>
+		
+		</div>
+		<div class="content">
+		
+			<div class="leftbox">
+				<h3>日常の備えも行おう</h3>
+			</div>
+		
+			<div class="rightbox">
+				<p>このアプリで扱えることは、情報です。家庭内で食料や飲料水などを揃えておくことはもちろん、お忘れなく。</p>
+			</div>
+		
 		</div>
 	</section>
 
@@ -127,8 +190,25 @@
 
 <footer>
 
+	<div>
+	
+		<p id="copyright">
+			<small>&copy; <a href="http://www.hack4.jp/">Hack For Japan</a>, SakaiYuya, TominariTakayuki, OgawaNobuhiro</small>
+		</p>
+	
+	</div>
 
 </footer>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59242226-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
